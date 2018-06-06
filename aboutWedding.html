@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>Our Wedding</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<!--Header/Home-->
+<header id="home" class="bgimg display-container">
+	<div class="black center display-topmiddle">
+		<h1 class="jumbo">JUNÖ & OCEAN</h1>
+		<h2>Are getting married</h2>
+		<h2><b>03.03.2018</b></h2>
+	</div>
+</header>
+<!-- Navbar (sticky bottom) -->
+<div class="bottom w3-hide-small">
+  <div class="bar bgwhite center padding opacity-min hover-opacity-off">
+    <a href="#home" style="width:25%" class="bar-item bar-button btn">Home</a>
+    <a href="#us" style="width:25%" class="bar-item bar-button btn">JUNÖ & OCEAN</a>
+    <a href="#wedding" style="width:25%" class="bar-item bar-button btn">Wedding</a>
+    <a href="#rsvp" style="width:25%" class="bar-item bar-button btn hover-black">RSVP</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="container pale-pink padding-64" id="us">
+  <div class="content ">
+    <h1 class="center"><b>JUNÖ & OCEAN</b></h1>
+    <img class="round" src="img/junous.jpg" style="width:100%;margin:32px 0">
+    <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.</i>
+    </p>
+	<br>
+    <p class="center"><a href="#wedding" class="btn bgblack txt-large round">Wedding Details</a></p>
+  </div>
+</div>
+
+
+<!-- Background photo-->
+<div class="bgimg2 display-container">
+	<div class="center display-middle white">
+		<h1 class="jumbo">You Are Invited</h1>
+		<br/>
+		<h2>Of course..</h2>
+	</div>
+	
+</div>
+
+<!-- Wedding information -->
+<div class="container pale-pink padding-64 center" id="wedding">
+  <div class="content ">
+    <h1><b>THE WEDDING</b></h1>
+    <img class="round" src="img/info.jpg" style="width:100%;margin:32px 0">
+    <div class="row">
+		<div class="row-helf">
+			<h2>When</h2>
+			<p>Wedding Ceremony - 2:00pm</p>
+			<p>Wedding Party - 3:30pm</p>
+		</div>
+		<div class="row-helf">
+			<h2>Where</h2>
+			<p>台南神學院</p>
+			<p>台南市東區東門路一段117號</p>
+		</div>		
+	</div>
+  </div>
+</div>
+<!-- RSVP section -->
+<div class="container padding-64 pale-red center wide" id="rsvp">
+  <h1>HOPE YOU CAN MAKE IT!</h1>
+  <p class="large">Kindly Respond By March, 2018</p>
+  <p class="center"><a onclick="document.getElementById('md').style.display='block'" class="btn red txt-large round">RSVP</a></p>
+  <!--
+  <p class="txt-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="btn button round red opacity hover-opacity-off" style="padding:8px 60px">RSVP</button>
+  </p>
+  -->
+</div>
+
+<!-- RSVP modal -->
+<div class="model" id="md">
+	<div class="model-content">	
+		<div class="container center bgwhite" style="padding:32px;max-width:600px;">
+			<h1 class="w3-wide">CAN YOU COME?</h1>
+			<p>We really hope you can make it.</p>
+			<form>
+				<input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+			</form>
+			<p><i>Sincerely, John &amp; Jane</i></p>
+			<div class="w3-row">
+				<div class="w3-half">
+					<button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+				</div>
+				<div class="w3-half">
+					<button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+				</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+</body>
+</html>
